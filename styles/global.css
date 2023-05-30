@@ -7,7 +7,7 @@ body {
     background-color: #F9F7F7;
 }
 
-button{
+button {
     border-radius: 5px;
     font-family: 'Inter', sans-serif;
     background-color: #9354E3;
@@ -40,7 +40,7 @@ header {
     list-style: none;
     align-items: center;
     gap: 50px;
-  
+
 
 }
 
@@ -63,3 +63,55 @@ a {
 }
 
 /*--------------------Content Styles↓↓↓-------------------------*/
+
+.container-content {
+    display: flex;
+    width: 760px;
+    height: 977px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 29px;
+}
+
+.card-1 h1 {
+    font-size: 48px;
+    width: 448px;
+}
+
+.card-1 h2{
+    font-size: 28px;
+}
+
+.card-1 span {
+    font-size: 24px;
+    color: #6B6A6A;
+    width: 727px;
+}
+
+.card-1 img {
+    width: 723px;
+    height: 275.07px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    width: 760px;
+    height: 246px;
+}
+
+.location img{
+    width: 27.18px;
+    height: 24.07px;
+    gap: 30px;
+    padding-top: 10px;
+}
+
