@@ -22,7 +22,7 @@
     <header>
         <nav class="container-nav">
             <div class="login-nav">
-                <button>Sign up</button>
+                <button id="iSignUp">Sign up</button>
                 <a>Login</a>
             </div>
             <ul>
@@ -36,7 +36,7 @@
     </header>
 
     <!-- Content↓↓↓ -->
-    <div class="container-content">
+    <main class="container-content">
         <div class="card-1">
             <h1>Talk to our product analytics expert</h1>
             <span>have questions about pricing plans, or Growhly? Fill out the form and our product analytics expert
@@ -47,7 +47,7 @@
                 will be in tiuch directly.</span>
 
             <!-- Footer↓↓↓ -->
-            <div class="location">
+            <footer class="location">
                 <div id="locations">
                     <h2>United Kingdom</h2>
                     <div class="location-content">
@@ -76,46 +76,50 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
-        <div class="card-2">
+        <form class="card-2">
             <div class="first-inputs">
                 <div class="inputs-style">
                     <label for="iFirstName">First Name</label>
-                    <input type="text" placeholder="First Name" id="iFirstName">
+                    <input type="text" placeholder="Enter your First Name" id="iFirstName">
                 </div>
 
                 <div class="inputs-style">
                     <label for="iLastName">Last Name</label>
-                    <input type="text" placeholder="Last Name" id="iLastName">
+                    <input type="text" placeholder="Enter your Last Name" id="iLastName">
                 </div>
             </div>
 
 
             <div class="inputs-style">
                 <label for="iEmailAdress">Email Adress</label>
-                <input type="text" placeholder="Email Adress" id="iEmailAdress">
+                <input type="text" placeholder="Enter your Email Adress" id="iEmailAdress">
             </div>
 
             <div class="inputs-style">
                 <label for="iCompanyName">Company Name</label>
-                <input type="text" placeholder="Company Name" id="iCompanyName">
+                <input type="text" placeholder="Enter your Company Name" id="iCompanyName">
             </div>
 
             <div class="inputs-style">
                 <label for="iPhoneNumber">Phone Number</label>
-                <input type="text" class="phonenumber-input" placeholder="Phone Number" id="iPhoneNumber">
+                <div class="input-phonenumber">
+                    <button id="IphonenumberButton"><img src="./assets/images/BanderaUruguay.png" alt="Phone Number's image"></button>  
+                  <input type="text" placeholder="Enter your Phone Number" id="iPhoneNumber">
+                </div>
+                
             </div>
 
             <div class="inputs-style">
                 <label for="iMessage">Message</label>
-                <input type="text" placeholder="Message" id="iMessage">
+                <textarea name="" id="iMessage" cols="30" rows="10" placeholder="Enter your Message"></textarea>
             </div>
-            <button>Send</button>
+            <button id="iSend">Send</button>
 
-        </div>
-    </div>
+        </form>
+    </main>
 
 
 </body>
