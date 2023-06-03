@@ -66,37 +66,40 @@ a {
 
 .container-content {
     display: flex;
-    width: 760px;
     height: 977px;
     font-family: 'Inter', sans-serif;
-    
+    margin: 0px 28px 0px 28px;
+    width: 100%;
+
 }
 
 .card-1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left: 29px;
+    width: 45%;
+    padding: 30px 15px 0px;
 }
 
 .card-1 h1 {
     font-size: 48px;
-    width: 448px;
+    width: 90%;
 }
 
-.card-1 h2{
+.card-1 h2 {
     font-size: 28px;
+    width: 100%;
 }
 
 .card-1 span {
-    font-size: 24px;
+    font-size: 14px;
     color: #6B6A6A;
-    width: 727px;
+    width: 100%;
 }
 
 .card-1 img {
-    width: 723px;
-    height: 275.07px;
+    width: 100%;
+    height: 45%;
 }
 
 .location {
@@ -104,19 +107,51 @@ a {
     flex-direction: row;
     align-items: flex-start;
     gap: 30px;
-    width: 760px;
-    height: 246px;
+    height: 35%;
+}
+.location-content{
+    padding: 10px;
 }
 
-.location img{
-    width: 27.18px;
-    height: 24.07px;
+.location img {
+    width: 5%;
+    height: 5%;
     gap: 30px;
     padding-top: 10px;
 }
 
-.card-2{
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
     background-color: white;
     box-shadow: 0px 4px 9px #6B6A6A;
+    align-items: center;
+    align-content: center;
+    padding:30px 0px 0px 15px;
+    gap: 80px;
+
 }
 
+.card-2 label{
+    font-size: 28px;
+}
+
+.card-2 input{
+    width: 90%;
+    border-radius: 10px;
+    height: 40px;
+    align-items: flex-start;
+}
+
+.first-inputs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inputs-style{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
