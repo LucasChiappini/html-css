@@ -1,14 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="shortcut icon" href="/assets/images/logo.png" />
+
+    <!-- Styles↓↓↓ -->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" />
+
+    <!-- Fonts↓↓↓ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Header↓↓↓ -->
+    <header>
+        <nav class="container-nav">
+            <div class="login-nav">
+                <button id="iSignUp">Sign up</button>
+                <a>Login</a>
+            </div>
+            <ul>
+                <a href="./index.html"><img src="./assets/images/logo.png" alt="Page logo" id="iLogo"></a>
+                <li><a>Pricing</a></li>
+                <li><a>Resources Center</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content↓↓↓ -->
+    <main class="container-content">
+        <!-- Card-1↓↓↓ -->
+        <div class="card-1">
+            <h1>Talk to our product analytics expert</h1>
+            <span>have questions about pricing plans, or Growhly? Fill out the form and our product analytics expert
+                will be in tiuch directly.</span>
+            <h2>Our office</h2>
+            <img src="./assets/images/our office.jpg" alt="Our office picture.">
+            <span>have questions about pricing plans, or Growhly? Fill out the form and our product analytics expert
+                will be in tiuch directly.</span>
+
+            <!-- Footer↓↓↓ -->
+            <footer class="location">
+                <div id="locations">
+                    <h2>United Kingdom</h2>
+                    <div class="location-content">
+                        <div>
+                            <img src="./assets/images/location (1).png" alt="Location icon">
+                            <span>30 Eastbourne Terrace Paddington, London W2 6LA, UK</span>
+                        </div>
+                        <div>
+                            <img src="./assets/images/call (1).png" alt="Call icon">
+                            <span>+44 13 5135 1051</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="locations">
+                    <h2>France</h2>
+                    <div class="location-content">
+                        <div>
+                            <img src="./assets/images/location (1).png" alt="Location icon">
+                            <span>266 Place Ernst Granier 3400 Montepillier France</span>
+                        </div>
+
+                        <div>
+                            <img src="./assets/images/call (1).png" alt="Call icon">
+                            <span>+33 5 12 18 21 86</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Card-2↓↓↓ -->
+        <form class="card-2">
+            <div class="first-inputs">
+                <div class="inputs-style">
+                    <label for="iFirstName">First Name</label>
+                    <input type="text" placeholder="Enter your First Name" id="iFirstName">
+                </div>
+
+                <div class="inputs-style">
+                    <label for="iLastName">Last Name</label>
+                    <input type="text" placeholder="Enter your Last Name" id="iLastName">
+                </div>
+            </div>
+
+
+            <div class="inputs-style">
+                <label for="iEmailAdress">Email Adress</label>
+                <input type="text" placeholder="Enter your Email Adress" id="iEmailAdress">
+            </div>
+
+            <div class="inputs-style">
+                <label for="iCompanyName">Company Name</label>
+                <input type="text" placeholder="Enter your Company Name" id="iCompanyName">
+            </div>
+
+            <div class="inputs-style">
+                <label for="iPhoneNumber">Phone Number</label>
+                <div class="input-phonenumber">
+                    <button id="IphonenumberButton"><img src="./assets/images/BanderaUruguay.png"
+                            alt="Phone Number's image"></button>
+                    <input type="text" placeholder="Enter your Phone Number" id="iPhoneNumber">
+                </div>
+
+            </div>
+
+            <div class="inputs-style">
+                <label for="iMessage">Message</label>
+                <textarea name="" id="iMessage" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+            </div>
+            <button id="iSend">Send</button>
+
+        </form>
+    </main>
+
+
 </body>
+
 </html>

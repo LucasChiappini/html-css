@@ -1,0 +1,192 @@
+/*--------------------General Styles↓↓↓-------------------------*/
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F9F7F7;
+    font-family: 'Inter', sans-serif;
+}
+
+/*--------------------Header Styles↓↓↓-------------------------*/
+#iSignUp {
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    background-color: #9354E3;
+    color: white;
+    border-style: none;
+    padding: 10px 15px 10px 15px;
+}
+
+
+header {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 110px;
+    max-width: 1440px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.container-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.container-nav,
+.login-nav {
+    display: flex;
+    gap: 33px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#iLogo {
+    width: 50px;
+    height: 50px;
+}
+
+/*--------------------Content Styles↓↓↓-------------------------*/
+
+.container-content {
+    display: flex;
+    height: 977px;
+    margin: 0px 28px 0px 28px;
+    width: 100%;
+
+}
+
+/*--------------------Card-1 Styles↓↓↓-------------------------*/
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+    padding: 30px 15px 0px;
+}
+
+.card-1 h1 {
+    font-size: 48px;
+    width: 90%;
+}
+
+.card-1 h2 {
+    font-size: 28px;
+    width: 100%;
+}
+
+.card-1 span {
+    font-size: 14px;
+    color: #6B6A6A;
+    width: 100%;
+}
+
+.card-1 img {
+    width: 100%;
+    height: 45%;
+}
+
+/*--------------------Footer Styles↓↓↓-------------------------*/
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    height: 35%;
+}
+
+.location-content {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.location img {
+    width: 5%;
+    height: 5%;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+/*--------------------Card-2 Styles↓↓↓-------------------------*/
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: white;
+    box-shadow: 0px 4px 9px #6B6A6A;
+    align-items: center;
+    align-content: center;
+    padding: 30px 0px 0px 15px;
+    gap: 50px;
+
+}
+
+.card-2 label {
+    font-size: 28px;
+}
+
+.card-2 input {
+    width: 90%;
+    border-radius: 10px;
+    height: 40px;
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #A6A6A6;
+}
+
+#iMessage {
+    border-radius: 10px;
+}
+
+.first-inputs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.inputs-style {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.input-phonenumber {
+    display: flex;
+}
+
+.input-phonenumber img {
+    width: 60px;
+}
+
+#IphonenumberButton {
+    background-color: white;
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+}
+
+#iSend {
+    width: 95%;
+    background-color: #9354E3;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    height: 48.08px;
+    color: white;
+    border-style: none;
+}
