@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Library↓↓↓ -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -80,7 +83,7 @@
             </footer>
         </div>
         <!-- Card-2↓↓↓ -->
-        <form class="card-2">
+        <form class="card-2" method="post">
             <div class="first-inputs">
                 <div class="inputs-style">
                     <label for="iFirstName">First Name</label>
@@ -96,7 +99,7 @@
 
             <div class="inputs-style">
                 <label for="iEmailAdress">Email Adress</label>
-                <input type="text" placeholder="Enter your Email Adress" id="iEmailAdress">
+                <input type="email" placeholder="Enter your Email Adress" id="iEmailAdress" />
             </div>
 
             <div class="inputs-style">
@@ -118,12 +121,12 @@
                 <label for="iMessage">Message</label>
                 <textarea name="" id="iMessage" cols="30" rows="10" placeholder="Enter your Message"></textarea>
             </div>
-            <button id="iSend">Send</button>
-
+            <input type="button" id="iSend" onclick="GetUser()" value="Send"></input>
         </form>
     </main>
 
 
+    <script src="./app.js"></script>
 </body>
 
 </html>
